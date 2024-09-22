@@ -10,3 +10,38 @@
     License: GNU General Public License v2 or Later
     License URI: http://www.gnu.org/licenses/gpl-2.0.html
 */
+
+/* .post-body {
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  background-size: cover;
+  width: 45%;
+  background-position: center center;
+  overflow: hidden;
+} */
+
+#video-post .post-body p:first-child {
+  height: 450px;
+}
+
+.post-body p {
+  width: 100%;
+  padding-bottom: 20%;
+  position: relative;
+}
+
+.post-body p:last-child {
+  padding-bottom: 5% !important;
+}
+
+.post-body p iframe {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
+  padding: 0;
+}
